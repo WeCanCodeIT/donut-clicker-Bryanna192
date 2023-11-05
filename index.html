@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fred the Baker Baking Company</title>
     <link rel="stylesheet" href="style.css">
-    <title>Donut Clicker</title>
 </head>
 <body>
-    <h2>total:0 </h2>
-<button id="DonutButton">click here </button>
-    <script src="app.js"></script>
+    <h1>Donut Clicker</h1>
+    <h3>Welcome to Donut Clicker! Click away and make some donuts!</h3>
+<h3>
+    <nav class="navBar">
+        <ul>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Inspiration.html"><li>Inspiration</a></li>
+            <li><a href="https://github.com/Bryanna192/Bryanna192.github.io"><li>Contact Us</li></a></li>
+        </ul>
+    </nav>
+</h3>
+<h4>
+    <div>    
+    <img src="MyDonut.jpg" id = "donut" style = "width: 300px;" onclick ="increment()">
+    <p>Donuts Clicked: <span id = "counter">0</span></p>
+    <p>Auto Clickers Purchased: <span id = "clickerCounter">0</span></p>
+    <button id = "reset" onclick = "reset()">reset</button>
+    <button id = "autoClickerBuyBtn" onclick = "purchaseAutoClicker()">auto clicker 10 donuts</button>
+    </div>
+</h4>
 </body>
+<script src="app.js"></script>
 </html>

@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+    background-color: rgb(255, 138, 173);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.navBar ul{
+    list-style-type: none;
+    background-color: rgb(214, 80, 132);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navBar a{
+    text-decoration: none;
+    padding: 1px;
+    display: block;
+    text-align: lef;
+    color: white
+    
+}
+.navBar a:hover{
+    background-color: rgb(255, 99, 13);
+}
+img.html {
+    div{
+display: flex;
+justify-content: center;
+background-color: rgb (255, 138, 173);
+}
+    width: 20% ;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    
+    
+}
